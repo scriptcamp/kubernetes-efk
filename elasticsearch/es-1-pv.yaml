@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: es-1
+spec:
+  accessModes:
+  - ReadWriteOnce
+  capacity:
+    storage: "3Gi"
+  hostPath:
+    path: /data/es-1
+    type: ""
+
