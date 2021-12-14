@@ -70,7 +70,7 @@ spec:
         app: elasticsearch
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: ""
+      # storageClassName: ""
       resources:
         requests:
           storage: 3Gi
